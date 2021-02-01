@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="conducere_camine_fk" directorySegmentName="seg_0" id="1C9E5836-1070-9ECB-21FB-AC0CFE2F5913">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:21:25 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<sourcePk>80A54A5D-389F-8630-2018-A91A99A7D843</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>este</nameOnSource>
+<nameOnTarget>are</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8BD4DF3B-7A75-490E-A7FE-462F5F0B79A3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0D655CBA-DA15-CBDF-DC19-3BF3CFBC492B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

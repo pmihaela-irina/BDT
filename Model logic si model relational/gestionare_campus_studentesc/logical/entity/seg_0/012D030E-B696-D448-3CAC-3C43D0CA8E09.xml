@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="012D030E-B696-D448-3CAC-3C43D0CA8E09" name="Registre">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:11:41 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_registru" id="D397B8A6-52A8-F3C8-0FE0-6B9A91A32E36">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:12:04 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="octombrie" id="1CEF8925-1C4E-D702-9ECA-894635BF0AB9">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:12:22 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_octombrie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="noiembrie" id="9DA52E4B-9DC6-8562-E931-EB07E7E4D5FE">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:12:39 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_noiembrie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="decembrie" id="889EB6E4-06DE-5C6A-A188-04A39DAD497C">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:12:56 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_decembrie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ianuarie" id="783E75CA-C0E1-7667-117A-5D9E262B5206">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:13:11 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_ianuarie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="februarie" id="F7164ED4-8B20-9732-C847-25AEBAB47947">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:13:29 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_februarie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="martie" id="F8F14572-039C-F1D1-18C8-85360DB214FA">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:13:48 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_martie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aprilie" id="FD03CE5F-FFE7-86AD-AC57-BAAA49667BBD">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:14:08 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_aprilie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mai" id="5AF8AB7D-52C1-7F39-A903-2ACCC46A3EC0">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:14:21 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_mai_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iunie" id="2E0A39E8-DE1E-DA45-91A9-09815CF238AB">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:15:07 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_iunie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iulie" id="0FC358F1-A3B7-6211-53B7-3EB8AAE41F5A">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:15:24 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>registre_iulie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_student" id="120ECD6D-4073-903E-9056-1E3545DD603A">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-15 06:58:08 UTC</createdTime>
+<generatorID>82E967FC-49B2-A4FF-038F-6135C72C4753</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<referedAttribute>23DCE6B0-2CCC-A7F6-2AA7-50D6025B4ADF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFC2B4E0-9F37-D2CA-1959-6EC1367FF576" name="Registre PK">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:12:17 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D397B8A6-52A8-F3C8-0FE0-6B9A91A32E36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

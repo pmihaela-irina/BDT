@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Registre" directorySegmentName="seg_0" id="E2EB4098-DE31-6154-4515-3EA5DC6967DD">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="mai" id="010D45B9-9896-F910-3B60-DB2F65CAB074">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ianuarie" id="08FF5A9B-C947-56C7-3783-C4AE5D3482A8">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="octombrie" id="0E5CC8FC-8020-305B-EBC6-E58D3F0599D6">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="iunie" id="388D6A9E-D516-B151-AD6E-C2F4F1100CF0">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="noiembrie" id="39F7CFE9-E0E4-006F-38FF-6CD97EFB0B31">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_registru" id="8ACC8048-F0E1-85CE-2D81-DED8BD50FD5C">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="martie" id="DBD35D1E-AF4A-F06A-DB19-3EB4BB347F93">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="aprilie" id="DF96D058-60B4-F833-695A-ED771947B663">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="iulie" id="E26EFE2F-FEFD-7387-4739-13336DA45FC5">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="decembrie" id="EED368DC-C319-504E-EB79-21A924ECEA57">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_student" id="F29777AA-494E-757F-4E8F-D0E3D8B47A16">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="februarie" id="F330E8F8-CDD4-D874-2BA6-6966DCFB3A88">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Registre__IDX" id="BC938E92-7454-367E-B8DC-5369F1CC1A49">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="studenti_registre_fk" id="168F3C77-45DF-9145-F858-A9E01A2F39AD">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Registre_PK" id="112526F9-5A07-122B-CC69-9E2BF6E7EA68">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-07 12:15:30 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

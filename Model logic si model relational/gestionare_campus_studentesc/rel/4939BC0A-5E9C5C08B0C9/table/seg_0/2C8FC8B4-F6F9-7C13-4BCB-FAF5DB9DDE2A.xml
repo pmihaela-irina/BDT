@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C8FC8B4-F6F9-7C13-4BCB-FAF5DB9DDE2A" name="Camere">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>F3A8E983-0A92-2717-2D04-37F758661A1C</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_camera" id="552E221E-0C7B-5E6A-DE5F-87DBD03E3E10">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>80756B3A-9D5E-0ECE-3912-D790375759E9</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>camere_id_camera_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>camere_id_camera_trg</autoIncrementTriggerName>
+</Column>
+<Column name="nr_camera" id="D9AF6847-B06C-988E-7298-E2EEAFA15539">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>6C207084-82D2-225C-1527-B887A44C62B1</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_studenti" id="29844102-3CD1-E480-4FD1-A45F5C304CC6">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>C4E20220-40D5-101A-6E47-F7DB594B1CAF</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camere_nr_studenti_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>4</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="tarif" id="E28DBE0D-A950-6700-F894-B96C3B65871B">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>3BFAE3AD-4B0A-6AB1-DCC7-434727123E94</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camere_tarif_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="120" description=""/>
+<valueDef value="130" description=""/>
+<valueDef value="135" description=""/>
+<valueDef value="150" description=""/>
+<valueDef value="200" description=""/>
+<valueDef value="270" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_camera" id="CA999607-E5B0-3845-B0C8-F2DB5A1C146D">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>A528ACAD-CE97-BF90-3E4F-D31E57E3DCCF</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camere_tip_camera_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Cvadubla" description=""/>
+<valueDef value="Dubla" description=""/>
+<valueDef value="Garsoniera" description=""/>
+<valueDef value="Oficiu" description=""/>
+<valueDef value="Single" description=""/>
+<valueDef value="Tripla" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_baie" id="4C958AD6-EDDE-13EF-0CB4-338010466D1F">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>9B49A0BE-9323-AE7C-3781-B243722C2059</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<constraintName>camere_tip_baie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Comuna" description=""/>
+<valueDef value="Modul" description=""/>
+<valueDef value="Proprie" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_camin" id="1B75F658-B209-045B-5909-6C24E8793674">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>02715C5D-2D99-D3EE-DE97-5D7F50975762</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5369038-C784-5810-C3A2-DF02814D46A7" referredColumn="86375F1D-614B-2983-5F3D-2DE609ED8B6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2158F6A8-0CCC-BE6D-06BB-7A416AC3E5E5" name="Camere_PK">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>B4CB6AF0-FF6F-1706-A6F6-DC845AAD8A87</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="552E221E-0C7B-5E6A-DE5F-87DBD03E3E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CA9E5E7-6E2D-D878-8D3C-31D7527ACAAC" name="camere_nr_camera_id_camin_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>F653CE8F-302E-DAC0-D629-A5B1A86311BC</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9AF6847-B06C-988E-7298-E2EEAFA15539"/>
+<colUsage columnID="1B75F658-B209-045B-5909-6C24E8793674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B9A2EFF-4B2D-4494-350E-995835F8E5C4" name="camine_camere_fk">
+<createdBy>Miha</createdBy>
+<createdTime>2021-01-05 16:54:49 UTC</createdTime>
+<generatorID>335426D5-595B-8E3B-8567-344BFB81AFD6</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B75F658-B209-045B-5909-6C24E8793674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

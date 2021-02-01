@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="camine_camere_fk" directorySegmentName="seg_0" id="335426D5-595B-8E3B-8567-344BFB81AFD6">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:22:40 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<sourcePk>F9C55B81-39B8-9D55-5714-B2DA3E4B0C69</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>apartine</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D655CBA-DA15-CBDF-DC19-3BF3CFBC492B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F3A8E983-0A92-2717-2D04-37F758661A1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

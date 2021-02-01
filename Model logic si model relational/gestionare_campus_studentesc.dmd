@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gestionare_campus_studentesc" id="D03E91E8-CDC3-5DA3-F0F8-DDD70F6EC666" version="3.5">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 12:55:44 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D03E91E8-CDC3-5DA3-F0F8-DDD70F6EC666</designId>
+</OSDM_Design>

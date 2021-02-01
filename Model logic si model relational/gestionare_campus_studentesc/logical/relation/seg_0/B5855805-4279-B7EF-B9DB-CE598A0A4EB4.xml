@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="studenti_date_studenti_fk" directorySegmentName="seg_0" id="B5855805-4279-B7EF-B9DB-CE598A0A4EB4">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:25:28 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<sourcePk>F53CD914-96C8-CF07-16CC-E66B786D39A1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are un set de</nameOnSource>
+<nameOnTarget>apartine</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>30F8C465-58D3-7BDD-F4CC-E49B8CBD1826</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>016D3210-E7D2-B618-4E3A-A5BBA7071F7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

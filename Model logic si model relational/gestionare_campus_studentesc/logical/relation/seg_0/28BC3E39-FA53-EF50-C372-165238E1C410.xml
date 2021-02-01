@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="camere_studenti_fk" directorySegmentName="seg_0" id="28BC3E39-FA53-EF50-C372-165238E1C410">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:24:08 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<sourcePk>B4CB6AF0-FF6F-1706-A6F6-DC845AAD8A87</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>sunt in</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3A8E983-0A92-2717-2D04-37F758661A1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30F8C465-58D3-7BDD-F4CC-E49B8CBD1826</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

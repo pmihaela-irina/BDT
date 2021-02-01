@@ -1,0 +1,235 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30F8C465-58D3-7BDD-F4CC-E49B8CBD1826" name="Studenti">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:06:43 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_student" id="23DCE6B0-2CCC-A7F6-2AA7-50D6025B4ADF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:06:50 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_student" id="C188BE1B-13FB-5D9C-F10D-FD8B895893CF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:07:08 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>studenti_nume_student_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like (nume_student, &apos;^[a-zA-Z .&apos;&apos;-]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="facultate" id="80BA0EDD-3851-082E-13FD-D91E8FD64A34">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:07:29 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>studenti_facultate_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<listOfValues>
+<valueDef value="Facultatea de Arhitectura &quot;G. M. Cantacuzino&quot;" description=""/>
+<valueDef value="Facultatea de Automatica si Calculatoare" description=""/>
+<valueDef value="Facultatea de Constructii de Masini si Management Industrial" description=""/>
+<valueDef value="Facultatea de Constructii si Instalatii" description=""/>
+<valueDef value="Facultatea de Design Industrial si Managementul Afacerilor" description=""/>
+<valueDef value="Facultatea de Electronica, Telecomunicatii si Tehnologia Informatiei" description=""/>
+<valueDef value="Facultatea de Inginerie Chimica si Protectia Mediului &quot;Cristofor Simonescu&quot;" description=""/>
+<valueDef value="Facultatea de Inginerie Electrica, Energetica si Informatica Aplicata" description=""/>
+<valueDef value="Facultatea de Mecanica" description=""/>
+<valueDef value="Facultatea de Stiinta si Ingineria Materialelor" description=""/>
+</listOfValues>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="an_studiu" id="34BFAC9F-3F3F-E513-087B-24D8C76F6C03">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:07:48 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>studenti_an_studiu_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Doctorat I" description=""/>
+<valueDef value="Doctorat II" description=""/>
+<valueDef value="Doctorat III" description=""/>
+<valueDef value="I" description=""/>
+<valueDef value="II" description=""/>
+<valueDef value="III" description=""/>
+<valueDef value="IV" description=""/>
+<valueDef value="Master I" description=""/>
+<valueDef value="Master II" description=""/>
+<valueDef value="V" description=""/>
+<valueDef value="VI" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefon" id="5948B2B4-DF7F-8B7E-FF07-930ACB774202">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:08:09 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>studenti_nr_telefon_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(nr_telefon,&apos;^(07[0-8]{1}[0-9]{1}|02[0-9]{2}|03[0-9]{2}){1}([0-9]{3}){2}$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa_email" id="35C0B51C-643B-F086-F22E-12460D1AA7C2">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:08:31 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>studenti_adresa_email_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(adresa_email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_banca" id="F644ABB6-106E-3CCA-DCE5-B3D3A6DF5FF5">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:08:51 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>studenti_cont_banca_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(cont_banca, &apos;[a-zA-Z]{2}[0-9]{2}[a-zA-Z0-9]{4}[0-9]{7}([a-zA-Z0-9]?){0,16}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_cazare" id="4FD930FA-BB70-7E11-2E58-081F31952109">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:09:13 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_decazare" id="B06F992A-4716-326F-CC98-C9F7487576B8">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:09:34 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>studenti_data_decazare_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data_decazare &gt; data_cazare"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_camera" id="EEF42E09-FBD4-C922-D603-897C4149ECB4">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:24:08 UTC</createdTime>
+<generatorID>28BC3E39-FA53-EF50-C372-165238E1C410</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<referedAttribute>80756B3A-9D5E-0ECE-3912-D790375759E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F53CD914-96C8-CF07-16CC-E66B786D39A1" name="Studenti PK">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:07:06 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23DCE6B0-2CCC-A7F6-2AA7-50D6025B4ADF</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="58D937AD-B3C4-7488-6A93-F974FCC43CF4" name="studenti_adresa_email_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:49:38 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<newElementsIDs>35C0B51C-643B-F086-F22E-12460D1AA7C2</newElementsIDs>
+<usedAttributes>
+<attributeRef>35C0B51C-643B-F086-F22E-12460D1AA7C2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DADA6C6B-B68F-97AF-1C59-8C3986F824FD" name="studenti_nr_telefon_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:49:57 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<newElementsIDs>5948B2B4-DF7F-8B7E-FF07-930ACB774202</newElementsIDs>
+<usedAttributes>
+<attributeRef>5948B2B4-DF7F-8B7E-FF07-930ACB774202</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

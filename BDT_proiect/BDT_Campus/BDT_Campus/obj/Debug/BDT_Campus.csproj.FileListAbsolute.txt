@@ -1,0 +1,13 @@
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.csprojAssemblyReference.cache
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.Log_bloc.resources
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.Properties.Resources.resources
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.csproj.GenerateResource.cache
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.csproj.CoreCompileInputs.cache
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\bin\Debug\BDT_Campus.exe.config
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\bin\Debug\BDT_Campus.exe
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\bin\Debug\BDT_Campus.pdb
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.exe
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.pdb
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.Manager.resources
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.Log_verif.resources
+D:\Anul 3\BD\BDT\BDT_proiect\BDT_Campus\BDT_Campus\obj\Debug\BDT_Campus.Administrator.resources

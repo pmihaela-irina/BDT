@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3A8E983-0A92-2717-2D04-37F758661A1C" name="Camere">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:03:01 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_camera" id="80756B3A-9D5E-0ECE-3912-D790375759E9">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:03:07 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_camera" id="6C207084-82D2-225C-1527-B887A44C62B1">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:03:40 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_studenti" id="C4E20220-40D5-101A-6E47-F7DB594B1CAF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:04:03 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>camere_nr_studenti_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>4</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="tarif" id="3BFAE3AD-4B0A-6AB1-DCC7-434727123E94">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:04:23 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>camere_tarif_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="120" description=""/>
+<valueDef value="130" description=""/>
+<valueDef value="135" description=""/>
+<valueDef value="150" description=""/>
+<valueDef value="200" description=""/>
+<valueDef value="270" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_camera" id="A528ACAD-CE97-BF90-3E4F-D31E57E3DCCF">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:04:46 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>camere_tip_camera_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Cvadubla" description=""/>
+<valueDef value="Dubla" description=""/>
+<valueDef value="Garsoniera" description=""/>
+<valueDef value="Oficiu" description=""/>
+<valueDef value="Single" description=""/>
+<valueDef value="Tripla" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_baie" id="9B49A0BE-9323-AE7C-3781-B243722C2059">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:05:07 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<constraintName>camere_tip_baie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Comuna" description=""/>
+<valueDef value="Modul" description=""/>
+<valueDef value="Proprie" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_camin" id="02715C5D-2D99-D3EE-DE97-5D7F50975762">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:22:40 UTC</createdTime>
+<generatorID>335426D5-595B-8E3B-8567-344BFB81AFD6</generatorID>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<referedAttribute>55F83321-823D-1DE1-EDA7-3D20255880C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4CB6AF0-FF6F-1706-A6F6-DC845AAD8A87" name="Camere PK">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-08 13:03:29 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80756B3A-9D5E-0ECE-3912-D790375759E9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F653CE8F-302E-DAC0-D629-A5B1A86311BC" name="camere_nr_camera_id_camin_uk">
+<createdBy>Miha</createdBy>
+<createdTime>2020-12-14 14:31:05 UTC</createdTime>
+<ownerDesignName>gestionare_campus_studentesc</ownerDesignName>
+<engineerTo>
+<item key="4939BC0A-E2E2-60DA-788A-5E9C5C08B0C9" value="true"/>
+</engineerTo>
+<newElementsIDs>6C207084-82D2-225C-1527-B887A44C62B1,335426D5-595B-8E3B-8567-344BFB81AFD6</newElementsIDs>
+<usedAttributes>
+<attributeRef>6C207084-82D2-225C-1527-B887A44C62B1</attributeRef>
+<attributeRef>02715C5D-2D99-D3EE-DE97-5D7F50975762</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
